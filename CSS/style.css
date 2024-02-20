@@ -1,0 +1,693 @@
+#backToTop {
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+  z-index: 9999;
+  color: white;
+  display: none;
+  cursor: pointer;
+}
+
+
+
+/*home section*/
+
+#navbar {
+  transition: all 0.5s;
+  padding: 1.5rem;
+}
+
+.navbar {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+a,
+.dropdown {
+  font-family: "Protest Revolution", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+.dropdown-item:hover {
+  background-color: transparent;
+  color: #C49B63 !important;
+}
+
+.navbar-nav .nav-link.active {
+  color: #C49B63;
+}
+
+.navbar-nav:hover {
+  color: #C49B63 !important;
+}
+
+.navbar-dark {
+  --bs-navbar-hover-color: #C49B63
+}
+
+
+.home {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/bg_2.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+
+
+.content span {
+  font-family: "Great Vibes", cursive;
+  font-weight: 500;
+  font-size: 3rem;
+  font-style: normal;
+  color: #C49B63;
+}
+
+.content h1 {
+  font-family: "Protest Strike", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.brand {
+  color: #C49B63;
+}
+
+/* about section */
+
+#about {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url(../img/coffee-beans-dark-background-top-view-coffee-concept.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+}
+
+.container-fluid {
+  --bs-gutter-x: 0px;
+}
+
+
+
+.aboutContent span {
+  font-family: "Great Vibes", cursive;
+  font-weight: 500;
+  font-size: 3rem;
+  font-style: normal;
+  color: #C49B63;
+  position: relative;
+}
+
+.aboutContent h2 {
+  position: absolute;
+  margin-top: -31px;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.aboutContent p {
+  color: whitesmoke;
+  opacity: 50%;
+  display: block;
+  margin-block-start: 2em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+
+@media screen and (min-width:300px) and (max-width:1280px) {
+  .aboutImg.col-md-6 {
+    width: 100%;
+  }
+
+  .aboutContent {
+    width: 100%;
+    background-color: black;
+    padding: 10px;
+  }
+
+  .aboutContent p {
+    display: block;
+    margin-block-start: 2em;
+    margin-block-end: 1em;
+    margin-inline-start: 10px;
+    margin-inline-end: 0px;
+  }
+
+  .aboutContent h2 {
+    display: block;
+    margin-inline-start: 10px;
+    margin-inline-end: 0px;
+  }
+
+  .aboutContent span {
+    display: block;
+    margin-inline-start: 10px;
+    margin-inline-end: 0px;
+  }
+
+}
+
+
+
+@media screen and (min-width:1280px) {
+  .aboutContent p {
+    color: whitesmoke;
+    opacity: 50%;
+    display: block;
+    margin-block-start: 2em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    text-align: center;
+  }
+
+  .aboutContent {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    width: 50%;
+    padding: 20px;
+    margin: 6rem 40rem;
+  }
+
+  .aboutImg {
+    position: relative;
+  }
+}
+
+
+/* services */
+
+#aboutService {
+  background-color: #C49B63;
+  padding: 1rem;
+}
+
+
+.order .icon {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 0;
+  bordeR: 1px solid #674c27;
+}
+
+
+.order h2 {
+  font-size: 18px;
+  margin-bottom: 20px;
+  color: black;
+  text-transform: uppercase;
+}
+
+
+@media screen and (max-width:500px) {
+  #aboutService .col-sm-12 .order {
+    width: 100%;
+  }
+}
+
+
+
+/* Our Menu */
+
+
+#menu {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../img/cofee.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.heading span {
+  font-family: "Great Vibes", cursive;
+  font-weight: 500;
+  font-size: 3rem;
+  font-style: normal;
+  color: #C49B63;
+}
+
+.heading h2 {
+  margin-top: -31px;
+  font-size: 40px;
+  font-weight: 700;
+  color: white;
+}
+
+
+.menuinfo p {
+  color: whitesmoke;
+  opacity: 50%;
+  text-align-last: left;
+}
+
+.btn button {
+  border: 1px solid #c49b63;
+  background: transparent;
+  color: #c49b63;
+}
+
+
+.btn button:hover {
+  background-color: #c49b63;
+  color: white;
+}
+
+
+.menugallary .menupic img {
+  border: 0.5px solid #c49b63;
+  border-radius: 5%;
+}
+
+
+
+@media screen and (min-width:320px) and(max-width:768px) {
+  .menupic img {
+    height: 200px;
+    display: block;
+    border: none;
+  }
+
+  .p-5 {
+    padding: 0rem !important;
+  }
+
+  .menuinfo {
+    text-align: center;
+
+  }
+}
+
+
+/*counter section */
+
+#counter {
+  background-color: #c49b63;
+}
+
+
+.content .icon {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 0;
+  border: 3px solid #0000;
+  transition: 0.5s;
+}
+
+
+
+.content .icon:hover {
+  background-color: #7b5117;
+  border: 3px solid black;
+
+}
+
+.content img {
+  vertical-align: 0%;
+}
+
+.content h2 {
+  font-size: 18px;
+  margin-bottom: 20px;
+  color: white;
+  text-transform: uppercase;
+}
+
+#counter .content p {
+  color: black;
+}
+
+
+@media screen and (max-width:500px) {
+  #counter .col-sm-12 .content {
+    width: 100%;
+  }
+}
+
+
+
+/*coffee sellers */
+
+#coffeeSellers {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../img/bg_1.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+
+
+.sellersImg .img {
+  display: block;
+  height: 200px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.sellersContent p {
+  color: #bfbfbf;
+}
+
+
+.cratBtn {
+  border: 2px solid #c49b63;
+  background: transparent;
+  color: #c49b63;
+  transition: 0.5s;
+}
+
+
+.cratBtn:hover {
+  background-color: #c49b63;
+  color: white;
+}
+
+
+#coffeeSellers .sellersHeadings span {
+  font-family: "Great Vibes", cursive;
+  font-weight: 500;
+  font-size: 3rem;
+  font-style: normal;
+  color: #C49B63;
+}
+
+
+
+#coffeeSellers .sellersHeadings h2 {
+  margin-top: -31px;
+  font-size: 40px;
+  font-weight: 700;
+  color: white;
+}
+
+
+#coffeeSellers .sellersHeadings p {
+  color: #bfbfbf;
+  opacity: 50%;
+  display: block;
+  margin-block-start: 2em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+.sellersImg {
+  border: 1px solid #C49B63;
+}
+
+
+@media screen and (max-width:745px) {
+  #coffeeSellers .cratBtn {
+    margin-bottom: 3rem;
+  }
+
+}
+
+
+
+
+.gallary .img {
+  display: block;
+  height: 300px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+
+.gallary .img .searchIcon {
+  width: 5rem;
+  height: 5rem;
+  background-color: #C49B63;
+  opacity: 0;
+  transition: 0.5s;
+}
+
+
+.gallary:hover .img .searchIcon {
+  opacity: 1;
+}
+
+
+
+/*our products*/
+
+
+#ourProducts {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/black-smooth-textured-paper-background.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+#ourProducts .productsHeading span {
+  font-family: "Great Vibes", cursive;
+  font-weight: 500;
+  font-size: 3rem;
+  font-style: normal;
+  color: #C49B63;
+}
+
+
+
+#ourProducts .productsHeading h2 {
+  margin-top: -31px;
+  font-size: 40px;
+  font-weight: 700;
+  color: white;
+}
+
+
+#ourProducts .productsHeading p {
+  color: whitesmoke;
+  opacity: 50%;
+  display: block;
+  margin-block-start: 2em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+
+#ourProducts .card .img {
+  display: block;
+  height: 300px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.card {
+  background-color: transparent;
+}
+
+.card h5 {
+  color: white;
+}
+
+.card .card-text {
+  color: #bfbfbf;
+}
+
+.card p {
+  color: white;
+}
+
+#ourProducts .nav-link {
+  color: #c49b63;
+}
+
+#ourProducts .nav-link {
+  transition: all 0.7s;
+}
+
+#ourProducts .nav-item:hover .nav-link {
+  color: black;
+  background-color: #c49b63;
+}
+
+.nav-pills .nav-link.active {
+  background-color: transparent;
+}
+
+
+
+@media screen and (max-width:1200px) {
+  #ourProducts ul {
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 100% !important;
+    padding: 0.5rem;
+    margin-top: 0;
+  }
+
+  #ourProducts ul li {
+    width: 100%;
+
+  }
+
+  #ourProducts ul .nav-item {
+    margin-bottom: 0.5rem;
+  }
+
+  #ourProducts .productsHeading {
+    padding-bottom: 50px;
+  }
+}
+
+
+
+/* Book a table*/
+textarea {
+  resize: none;
+}
+
+
+#BookTable .btn {
+  background-color: #c49b63;
+  border: 2px #c49b63 solid;
+  transition: 0.5s;
+  color: black;
+}
+
+#BookTable .btn:hover {
+  background-color: black;
+  color: #C49B63;
+}
+
+
+@media screen and (max-width:768px) {
+  iframe {
+    margin-bottom: 1.5rem;
+  }
+
+  #BookTable #FristName {
+    margin-bottom: 1.5rem;
+  }
+
+  #BookTable #message {
+    margin-bottom: 1.5rem;
+  }
+}
+
+
+/*Footer*/
+
+#footer {
+  background-color: #120F0F;
+  padding: 0.5rem;
+}
+
+/* @media screen and(min-width:320px) and (max-width:768px) {
+  #footer {
+    padding: 0.5rem;
+  }
+} */
+
+#footer .text .socialIcon li a {
+  height: 50px;
+  width: 50px;
+  display: block;
+  position: relative;
+
+  border: 2px solid black;
+  border-radius: 50%;
+}
+
+
+
+
+#footer .text .socialIcon li a span {
+  position: absolute;
+  font-size: 26px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+#footer .text .socialIcon img {
+  width: 50%;
+
+}
+
+
+#footer .RecentBlogContent .img {
+  display: block;
+  height: 80px;
+  width: 80px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+
+#footer .RecentBlogContent .meta a {
+  text-decoration: none;
+}
+
+#footer .lead {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+#footer .RecentBlogContent .meta {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+
+#footer .RecentBlogContent .meta .iconz {
+  font-size: x-small;
+}
+
+#footer .RecentBlogContent .meta .icon-calendar {
+  display: block;
+  height: 15px;
+  width: 15px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+#footer li h6 {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.7);
+
+}
+
+
+#footer .services .servicesLinks li {
+  padding-bottom: 0.5rem !important;
+}
+
+
+#footer .HaveQ .location {
+  display: block;
+  height: 24px;
+  width: 24px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+
+
+
+#footer .HaveQ .qText {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+#footer .container .maker p {
+  font-family: "Protest Revolution", sans-serif;
+}
